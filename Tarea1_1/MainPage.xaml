@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea1_1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Aqua" Padding="0" CornerRadius="0">
+            <Label Text="Tarea 1.1-Grupo7!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Dato 1" FontSize="Default" Padding="5,0,0,0"/>
+        <Entry x:Name="numero1" Placeholder="Data uno:" Margin="5,0,5,0" Keyboard="Numeric"/>
+        <Label Text="Dato 2" FontSize="Default" Padding="5,0,0,0"/>
+        <Entry x:Name="numero2" Placeholder="Dato dos: " Margin="5,0,5,0" Keyboard="Numeric"/>
+
+        <Button x:Name="btnSuma" Text="Suma" Clicked="btnSuma_Clicked" BackgroundColor="Bisque" CornerRadius="20"/>
+
+        <Button x:Name="btnResta" Text="Resta" Clicked="btnResta_Clicked"  BackgroundColor="Violet" CornerRadius="20"/>
+
+        <Button x:Name="btnultiplicacion" Text="Multiplicación" Clicked="btnultiplicacion_Clicked" BackgroundColor="Aquamarine" CornerRadius="20"/>
+
+        <Button x:Name="btnDivision" Text="División" Clicked="btnDivision_Clicked" BackgroundColor="Coral" CornerRadius="20"/>
+    </StackLayout>
+
+</ContentPage>
